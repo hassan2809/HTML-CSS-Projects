@@ -1,0 +1,23 @@
+.post-img{
+    height: 288px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.post-img img{
+    width: 100%;
+}
+.blog-post-content h1{
+    text-align: center;
+    margin: 20px 0;
+}
+.blog-post-content p{
+    font-size: 18px;
+}
+.home-article{
+    margin: 25px 0;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+
+}

@@ -1,0 +1,10 @@
+.footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+.m-auto h2{
+    margin: 23px 0;
+    font-size: 30px;
+    font-family: var(--font3);
+}

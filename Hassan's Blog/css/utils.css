@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+:root {
+  --main-bg-color: #4287f5;
+  --font1: "Roboto", sans-serif;
+  --font2: "Ubuntu", sans-serif;
+  --font3: "Public Sans", sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.form-input {
+  padding: 3px 5px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-family: var(--font3);
+}
+.btn {
+  padding: 3px 5px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: var(--font3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: var(--main-bg-color);
+}
+.form-box input,textarea{
+    width: 44vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    font-size: 15px;
+}
